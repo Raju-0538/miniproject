@@ -1,0 +1,67 @@
+.one
+{
+    height: 550px;
+    width: 400px;
+    border-color: rgb(229, 224, 224);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 560px;
+    border-radius: 10px;
+    background-color: rgb(252, 250, 248);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.one:hover
+{
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.936);
+    border: 2px solid rgb(151, 23, 23);
+}*/
+.two
+{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    color: rgb(6, 7, 7);
+    /*font-family: cursive;*/
+}
+.one input{
+    height: 30px;
+    width: 77%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    outline: none;
+    background: transparent;
+    margin-left: 44px;
+    padding-top: 30px;
+    font-size: 21px;
+}
+.four
+{
+    background-color: gainsboro;
+}
+.one button{
+    height: 55px;
+    width: 77%;
+    background-color: rgb(241, 11, 126);
+    margin-left: 44px;
+    margin-top: 55px;
+    font-size: 20px;
+    color: rgb(40, 61, 61);
+    border: none;
+    margin-bottom: 30px;
+}
+.one button:hover{
+    background-color: rgb(189, 47, 118);
+    cursor: pointer;
+}
+.one a{
+    margin-left: 120px;
+    color: blueviolet;
+    font-size: 20px;
+}
+.one a:hover{
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2014/03/05/1195803-24989561-2560-1440.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+.form{
+    width:250px ;
+    height:400px;
+    color:#fff;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.878)50%,rgba(10, 10, 10, 0.8)50%);
+    position: absolute;
+    top:46% ;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+.form:hover{
+    box-shadow: 5px 5px 30px rgba(254, 253, 253, 0.974);
+}
+.form h1{
+    width: 220px;
+    text-align: center;
+    padding-left: 11px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #00f0ff;
+}
+/*.search
+{
+    height: 33px;
+    width: 46%;
+    background-color: white;
+    border-radius: 10px;
+}*/
+.form input{
+    width: 100%;
+    height:35px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    outline: none;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+    color: #00f0ff;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+    color: #00f0ff;
+    font-weight: bold;
+}
+.btn a:hover{
+    color:#00f0ff
+}
+.bar
+{
+    display: flex;
+    height: 30px;
+    width: 200px;
+    padding-inline-start: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: 15px;
+}
+.one:hover{
+    color: #00f0ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.two:hover{
+    color: #00f0ff;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.three:hover{
+    color: #00f0ff;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.four:hover{
+    color: #00f0ff;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.five:hover{
+    color: #00f0ff;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.one
+{
+    padding-left: 38px;
+}
+.two
+{
+    padding-left: 38px;
+}
+.three
+{
+    padding-left: 38px;
+}
+.four
+{
+    padding-left: 38px;
+}
+.five
+{
+    padding-left: 38px;
+}
+.form .fp{
+    text-align: center;
+    padding: 10px 15px;
+}
+.form .fp a{
+    color: #00f0ff;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+}
+.form .link{
+    font-family:"Ubuntu",sans-serif ;
+    font-size: medium;
+    padding-top: 10px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #f50606;
+}
+.liw{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    text-decoration: underline;
+    color: #00f0ff;
+}
+.icon{
+    color: #fff;
+}
+.icon1 a{
+    text-decoration: none;
+    columns: #fff;
+}
+.icon1 ion-icon{
+    font-size: 32px;
+    padding: 12px;
+    padding-top: 5px;
+    transition: .4s ease;
+}
+.icon1 ion-icon:hover{
+    color: #2808fa;
+}
+.icon2 a{
+    text-decoration: none;
+    columns: #fff;
+}
+.icon2{
+    font-size: 32px;
+    padding: 12px;
+    padding-top: 5px;
+    transition: .4s ease;
+}
+.icon2 ion-icon:hover{
+    color: rgb(202, 251, 6);
+}
+.icon3 a{
+    text-decoration: none;
+    columns: #fff;
+}
+.icon3{
+    font-size: 32px;
+    padding: 12px;
+    padding-top: 5px;
+    transition: .4s ease;
+}
+.icon3 ion-icon:hover{
+    color: rgb(6, 192, 249);
+}
+.icon4 a {
+    text-decoration: none;
+    columns: #fff;
+}
+.icon4{
+    font-size: 32px;
+    padding: 12px;
+    padding-top: 5px;
+    transition: .4s ease;
+}
+.icon4 ion-icon:hover{
+    color: rgb(224, 10, 189);
+}
+.cr7
+{
+    display: flex;
+    height: 80px;
+}
+.c
+{
+    
+    font-size: 50px;
+    color: #f50606;
+    margin-left: -1100px;
+    margin-top: 80px;
+}
+.ri
+{
+    
+    font-size: 35px;
+    color: aqua;
+    margin-left: 0px;
+    margin-top: 97px;
+}
+.rono
+{
+    display: flex;
+    height: 75px;
+}
+.ro
+{
+   
+    font-size: 50px;
+    color: #f50606;
+    margin-left: -1000px;
+    margin-top: 155px;
+}
+.no
+{
+    
+    font-size: 35px;
+    color: aqua;
+    margin-top: 180px;
+}
+.cr7:hover
+{
+    text-shadow: 3px 3px 10px rgba(233, 228, 228, 0.974);
+    cursor: pointer;
+    font-size: large;
+    transition: 10ms;
+}
+.rono:hover{
+    text-shadow: 3px 3px 10px rgba(233, 228, 228, 0.974);
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task Timer</title>
+<style>
+    .timer {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .timer h1 {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .timer input[type="text"] {
+        width: 200px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .timer input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="timer">
+    <h1>Task Timer</h1>
+    <form id="timerForm">
+        <input type="text" id="taskName" placeholder="Enter Task Name">
+        <br><br>
+        <input type="number" id="duration" placeholder="Enter Duration (in seconds)">
+        <br><br>
+        <input type="submit" value="Start Timer">
+    </form>
+    <br>
+    <h2 id="countdown"></h2>
+</div>
+
+<script>
+    document.getElementById('timerForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        var taskName = document.getElementById('taskName').value;
+        var duration = document.getElementById('duration').value;
+
+        if (taskName && duration) {
+            startTimer(taskName, duration);
+        } else {
+            alert('Please enter both task name and duration.');
+        }
+    });
+
+    function startTimer(taskName, duration) {
+        var countdownElement = document.getElementById('countdown');
+        var timer = duration;
+        var interval = setInterval(function() {
+            countdownElement.innerHTML = "Time remaining for " + taskName + ": " + timer + " seconds";
+            timer--;
+            if (timer < 0) {
+                clearInterval(interval);
+                countdownElement.innerHTML = "Task " + taskName + " completed!";
+            }
+        }, 1000);
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* body
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 186, 189);
+} */
+
+.classLst {
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    width: 300px;
+    height: 350px;
+    background:linear-gradient(rgba(0,0,0,0.1),rgb(178, 87, 172),rgb(30, 211, 252));
+    text-align: center;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: transform 0.8s;
+}
+.card:hover {
+    transform: rotatey(180deg)
+}
+.card span {
+    display: none;
+}
+
+.card:hover h1{
+    display: none;
+}
+
+.card:hover span {
+    display: inline-block;
+    transform: scaleX(-1);
+    direction: rtl; 
+}
